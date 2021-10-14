@@ -1,0 +1,53 @@
+.navbar-left {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  display: block;
+  background: rgb(49,151,149);
+  width: 220px;
+  min-width: 200px;
+  height: 100vh;
+  padding: 0px;
+}
+
+.navbar-items-1 {
+  padding: 89px 10px 40px;
+  border-bottom: 1px solid rgb(45,121,123);
+}
+
+.navbar-items-2 {
+  padding: 40px 10px;
+}
+
+.navbar-items a {
+  display: grid;
+  grid-template-columns: 28% 72%;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-items a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.navbar-items .active {
+  text-decoration: none;
+  background-color: rgb(73,188,183);
+  border-radius: 4px;
+}
+
+.navbar-items h3 {
+  font-size: 13px;
+  margin-bottom: 0px !important;
+}
+
+.navbar-items i {
+  margin: 0px 16px;
+  color: rgb(56,178,171);
+  font-size: 24px;
+}
+
+
+

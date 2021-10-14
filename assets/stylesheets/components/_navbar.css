@@ -1,0 +1,29 @@
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  padding: 12px 30px;
+  background-color: white;
+  z-index: 10;
+}
+
+.navbar-left-part a {
+  background-color: white;
+  border: 2px solid rgb(220, 220, 220);
+  padding: 0px 12px;
+  border-radius: 4px;
+  color: rgb(150, 150, 150);
+}
+
+.navbar-right-part {
+  align-items: center;
+}
+
+.navbar-right-part p {
+  margin: 0px 17px;
+  font-size: 11px;
+}
+
+.navbar-right-part a {
+  color: black;
+}
